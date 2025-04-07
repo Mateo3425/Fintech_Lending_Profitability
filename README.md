@@ -1,28 +1,40 @@
-# Fintech_Lending_Profitability
-Built a full pipeline to analyze the profitability of a fintech lending portfolio. Calculated Net Profit, ROI, and Risk Score for each loan, and segmented data by loan type and customer segment. Visualized trends and insights using Python, and exported data for use in Excel and Power BI dashboards.
+ Fintech Lending Profitability Dashboard
+This project explores the profitability of various loan types and customer segments within a fintech lending dataset. It combines Excel, Power BI, and Python to deliver actionable insights into key performance indicators like net profit, default rate, ROI, and more.
 
-#  Fintech Lending Profitability Dashboard
+ Objective
+To analyze lending performance and identify the most profitable loan types and customer segments, using data visualization and segmentation techniques.
 
-This project analyzes a fintech lending dataset to assess loan profitability, risk distribution, and customer segment performance across various loan types.
+ Tools Used
+Excel – Data cleaning, PivotTables, and exploratory charts
 
-##  Tools Used
-- **Python**: Data cleaning, EDA, and profit metric calculations (Pandas)
-- **Excel**: PivotTables, risk segmentation, and conditional formatting
-- **Power BI**: Interactive dashboard with filters, KPIs, and visuals
+Python (Pandas, Seaborn) – Data preprocessing and segmentation logic
 
-##  Key Insights
-- ROI comparison by customer segment
-- Net Profit analysis by loan type
-- Risk score distribution across the portfolio
-- Dynamic dashboard with drill-down filters and visual storytelling
+Power BI – Interactive dashboard with visuals for business insights
 
-##  Files Included
-- `Untitled (1).ipynb` – Python analysis and metric generation
-- `cleaned_lending_data_with_segments.xlsx` – Final dataset with calculated fields
-- `Loan Portfolio Profitability.pbix` – Power BI dashboard
-- `custom_fintech_lending.csv` – Raw data source
+ Key Insights Visualized in Power BI
+Net Profit Over Time
 
----
+Profit by Loan Type
 
+Customer Segment Profitability (Pie Chart)
 
+Default Rate by Customer Segment
+
+KPI Card: Total Net Profit
+
+(+ ROI and Filtering functionality)
+
+ 
+![Fintech_Lending_Profitability](https://github.com/user-attachments/assets/920a683f-f92d-489b-83db-401ea7f2d5c6)
+
+ Excel Work Summary
+Calculated and visualized:
+
+Profit category distribution (High, Moderate, Loss-Making)
+
+ROI by Customer Segment
+
+Net Profit by Loan Type
+
+Created pivot tables and charts to support initial data exploration
 
